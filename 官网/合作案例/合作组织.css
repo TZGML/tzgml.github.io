@@ -1,0 +1,108 @@
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+ }
+
+ body {
+     display: flex;
+     width: 100vw;
+     background-image: url('2.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     flex-direction: column;
+     cursor: url(http://www.ibloger.net/cursor.ico), auto;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ /* 导航栏开始 */
+ .nav {
+     max-width: 90em;
+     display: flex;
+     margin-top: 5em;
+     margin-bottom: 5em;
+     width: 90vw;
+     height: 16em;
+     -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+     background: #fff;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 17px;
+ }
+
+
+ .nav p {
+     font-size: 25px;
+     color: #0064ff;
+ }
+
+ .nav a {
+     color: #0097ff;
+     margin-top: 12px;
+ }
+
+ /* 合作公司信息 */
+ .i_one {
+     max-width: 90em;
+     width: 90%;
+     height: auto;
+     text-align: center;
+     -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+     background: #fff;
+     border-radius: 17px;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     margin-bottom: 3em;
+ }
+
+
+ .i_one li {
+     -webkit-tap-highlight-color: transparent;
+     margin-top: 3em;
+     margin-bottom: 3em;
+ }
+
+ .i_one li img {
+     display: inline-block;
+     vertical-align: top;
+     height: 45px;
+     width: 45px;
+     background: no-repeat;
+     background-size: 100% 100%;
+     overflow: hidden;
+     transition: all 0.3s;
+ }
+
+ .i_one li:hover img {
+     transform: rotate(360deg);
+ }
+
+
+ .i_one li .p {
+     color: #c0c0c0;
+     font-size: 10px;
+ }
+
+ .i_one li .h3 {
+     font-weight: normal;
+     line-height: 30px;
+     height: 30px;
+     color: #333;
+     font-size: 12px;
+     transition: all 0.3s;
+ }
+
+ .i_one li:hover .h3 {
+     color: #38a2eb;
+ }
+
+ /* 合作公司信息结束 */

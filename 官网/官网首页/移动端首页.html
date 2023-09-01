@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欧穆联邦官网首页-葛墨林</title>
+    <meta name="description" content="欧穆联邦软件科技有限合伙企业官网-葛墨林">
+    <meta name="keywords"
+        content="软件，外包，科技，网络，游戏，嵌入式，物联网，公司，企业，APP，web，网站，机器人，AI，人工智能，小程序，微信，QQ，硬件，系统，IOS，Android，Linux,Windows">
+    <meta name="author" content="葛墨林">
+    <link rel="canonical" href="https://tzgml.github.io/"> <!-- 避免重复内容，指定首选URL -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website"> <!-- 指定页面类型 -->
+    <meta property="og:url" content="https://tzgml.github.io/"> <!-- 页面URL -->
+    <meta property="og:title" content="欧穆联邦软件科技有限合伙企业官网"> <!-- 页面标题 -->
+    <meta property="og:description" content="欧穆联邦软件科技有限合伙企业专业提供软件外包服务，致力于所有政，企，校实现数字化转型升级，提供高质量的软件开发全流程服务">
+    <!-- 页面描述 -->
+    <meta property="og:image" content="元数据图片.png"> <!-- 页面相关图片 -->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image"> <!-- Twitter卡片类型 -->
+    <meta property="twitter:url" content="https://tzgml.github.io/"> <!-- 页面URL -->
+    <meta property="twitter:title" content="欧穆联邦软件科技有限合伙企业官网"> <!-- 页面标题 -->
+    <meta property="twitter:description" content="欧穆联邦软件科技有限合伙企业专业提供软件外包服务，致力于所有政，企，校实现数字化转型升级，提供高质量的软件开发全流程服务">
+    <!-- 页面描述 -->
+    <meta property="twitter:image" content="元数据图片.png"> <!-- 页面相关图片 -->
+    <link rel="preload" href="移动端背景图.jpg" as="image">
+    <link rel="stylesheet" href="移动端首页.css">
+    <!--给网站添加鼠标点击爆炸五颜六色特效-->
+    <link rel="stylesheet" type="text/css" href="http://zhouql.vip/cdn/css/szgotop.css" />
+    <script src="http://zhouql.vip/cdn/blast.js"></script>
+</head>
+
+
+
+<!-- PC端，移动端HTML文件根据屏幕宽度进行跳转。 -->
+<script>
+    // 判断是否已经执行过屏幕宽度判断
+    if (!sessionStorage.getItem('isWidthChecked')) {
+        // 获取屏幕宽度
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+        // 判断屏幕宽度
+        if (screenWidth <= 884) { // 假设小于等于884px为移动端
+            window.location.href = '移动端首页.html';
+        } else {
+            window.location.href = '../.././index.html';
+        }
+        // 标记已经执行过屏幕宽度判断
+        sessionStorage.setItem('isWidthChecked', true);
+    }
+</script>
+<!-- PC端，移动端HTML文件根据屏幕宽度进行跳转结束 -->
+
+
+
+<body>
+
+    <script>
+        alert("移动端页面做的很烂，请见谅，按钮不要点，产品中心和解决方案也没做完。")
+    </script>
+
+
+
+    <!-- 头部导航栏 -->
+    <div class="nav">
+        <div class="nav-main">
+            <a href="../官网首页/移动端首页.html" class="menu-item">官网首页</a>
+            <a href="../合作案例/合作组织.html" class="menu-item">合作组织</a>
+            <a href="../解决方案/移动端解决方案.html" class="menu-item">解决方案</a>
+            <a href="../产品中心/移动端产品中心.html" class="menu-item">产品中心</a>
+            <a href="https://openai.1479284.xyz/#/chat/1002" class="menu-item">在 线 A I</a>
+        </div>
+
+        <div class="nav-mobile">
+            <input type="checkbox" name="" id="menu-check" value="" style="display: none;" />
+            <label href="" class="mobile-list" for="menu-check">
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+
+            <div class="menu">
+                <div class="searchInput">
+                    <input type="text" name="search" id="search" value="" class="input"
+                        placeholder="搜索https://tzgml.github.io/">
+                </div>
+                <div class="menulist">
+                    <a href="../官网首页/移动端首页.html" class="menu-item">官网首页</a>
+                    <a href="../合作案例/合作组织.html" class="menu-item">合作组织</a>
+                    <a href="../解决方案/移动端解决方案.html" class="menu-item">解决方案</a>
+                    <a href="../产品中心/移动端产品中心.html" class="menu-item">产品中心</a>
+                    <a href="https://openai.1479284.xyz/#/chat/1002" class="menu-item">在 线 A I</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部导航栏结束 -->
+
+
+    <!-- 门户开始 -->
+    <div class="menhu">
+        <h5>欧穆联邦软件科技</h5>
+        <p>PC端体验该网站更佳哦，这移动端做的太糟糕了</p>
+    </div>
+    <!-- 门户结束 -->
+
+    <!-- 第一个内容分区——外包项目开始 -->
+    <div class="content1">
+        <p>外包项目</p>
+        <div class="icon">
+            <div><img src="app.png" alt="APP开发">
+                <p>提供优质IOS,Andriod应用全流程开发服务</p>
+            </div>
+            <div><img src="桌面应用.png" alt="桌面应用开发">
+                <p>Linux,Windows,Mac跨平台桌面应用开发</p>
+            </div>
+            <div><img src="网站.png" alt="网站搭建">
+                <p>PC端，移动端自适应网站个性化定制服务</p>
+            </div>
+            <div><img src="微信.png" alt="小程序开发">
+                <p>微信，QQ小程序与公众号定制开发</p>
+            </div>
+            <div><img src="管理系统.png" alt="管理系统">
+                <p>各种政企，学校数字化管理系统定制开发</p>
+            </div>
+            <div><img src="UI设计.png" alt="ui设计">
+                <p>提供网站与APP的精美UI设计服务</p>
+            </div>
+            <div><img src="嵌入式.png" alt="嵌入式系统开发">
+                <p>智能设备嵌入式系统与单片机软件开发</p>
+            </div>
+            <div><img src="游戏.png" alt="游戏代码代写">
+                <p>游戏代码代写服务（不提供外挂服务）</p>
+            </div>
+            <div><img src="软件测试.png" alt="软件测试">
+                <p>提供第三方软件各项测试服务</p>
+            </div>
+        </div>
+    </div>
+    <!-- 第一个内容分区——外包项目结束 -->
+
+
+    <!-- 第二个分区——APP开发 开始 -->
+    <div class="title">
+        <div class="wenben">
+            <p>高端app定制开发</p>
+        </div>
+        <a href="" class="ol-consult">在线咨询</a>
+    </div>
+
+    <!-- APP外包服务，Android,IOS,iPad 模块开始 -->
+    <div class="app-dev">
+        <h1>APP软件外包开发</h1>
+        <div class="app-dev-class pub-1200">
+            <div class="box">
+                <div>
+                    <img src="https://www.irzhd.com//imgs/app (2).png" alt="IOS开发">
+                </div>
+                <div class="app-dex-content">
+                    <h1>IOS开发</h1>
+                    <p>高端IOS APP开发</p>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <img src="https://www.irzhd.com//imgs/app (4).png" alt="Andriod开发">
+                </div>
+                <div class="app-dex-content">
+                    <h1>Andriod开发</h1>
+                    <p>Andriod APP全流程服务</p>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <img src="https://www.irzhd.com//imgs/app (3).png" alt="Pad开发">
+                </div>
+                <div class="app-dex-content">
+                    <h1>Pad开发</h1>
+                    <p>IOS、Andriod的Pad开发</p>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <img src="https://www.irzhd.com//imgs/app (1).png" alt="智能物联开发">
+                </div>
+                <div class="app-dex-content">
+                    <h1>智能物联开发</h1>
+                    <p>专业智能物联网开发</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- APP外包服务，Android,IOS,iPad 模块结束 -->
+
+
+    <!-- APP分类 -->
+    <div class="app-class">
+        <h1>移动APP应用开发类别</h1>
+        <ul class="pub-1200 wrap">
+            <li>在线教育类</li>
+            <li>智能家居类</li>
+            <li>互联网金融类</li>
+            <li>医疗类</li>
+            <li>旅游类</li>
+            <li>家政类</li>
+            <li>地产类</li>
+            <li>电商类</li>
+            <li>政务类</li>
+            <li>物流类</li>
+            <li>行业门户类</li>
+            <li>移动办公类</li>
+            <li>餐饮类</li>
+            <li>新媒体资讯类</li>
+            <li>智慧城市类</li>
+            <li>社区类</li>
+            <li>社交类</li>
+            <li class="ol-consult">更多</li>
+        </ul>
+    </div>
+    <!-- APP分类结束 -->
+
+
+    <!-- 移动APP定制流程 -->
+    <div class="app-order-process" id="a1">
+        <h1>移动APP定制<span>流程</span></h1>
+        <p>严密的开发流程管控为移动应用开发提供保障</p>
+        <!--产品规划-->
+        <div class="product-plan">
+            <h1>产品规划</h1>
+            <h2>移动应用产品分析</h2>
+            <div class="analysis">
+                <div class="analysis-center">
+                    <span>数据分析</span>
+                    <p>移动应用行业数据分析</p>
+                </div>
+                <div class="analysis-center">
+                    <span>品牌定位</span>
+                    <p>产品定位梳理</p>
+                </div>
+                <div class="analysis-center">
+                    <span>用户需求</span>
+                    <p>目标受众与用户需求解析</p>
+                </div>
+                <div class="analysis-center">
+                    <span>研发成本</span>
+                    <p>移动应用开发成本评估</p>
+                </div>
+                <div class="analysis-center">
+                    <span>成本分析</span>
+                    <p>推广与运营成本分析、渠道投放、评测活动</p>
+                </div>
+            </div>
+            <h2>移动应用产品与技术规划</h2>
+            <div class="analysis-down">
+                <dl>
+                    <dt>
+                        产品功能策划
+                    </dt>
+                    <dd>
+                        移动应用核心功能确定，梳理产品功能与逻辑，输出产品文档
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        界面交互体验规划
+                    </dt>
+                    <dd>
+                        产品界面规划，产品视觉设计规划，产品交互设计规划
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        移动应用技术框架规划
+                    </dt>
+                    <dd>
+                        通过架构讨论确定稳定技术架构解决方案，移动应用安全性能，稳定性能规划
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        运营周期规划
+                    </dt>
+                    <dd>
+                        培养种子用户，优化移动应用排名，整合资源，培养活跃用户
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- 移动APP定制流程结束 -->
+
+    <!-- 交付清单开始 -->
+    <div class="app-delivery-list">
+        <h1>交付清单</h1>
+        <p>交付的不止是规范整洁的源码，还有详尽的系统设计文档</p>
+        <div class="delivery-list-box">
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (1).png" alt="需求文档">
+                </dt>
+                <dd>
+                    需求文档
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (2).png" alt="原型设计文件">
+                </dt>
+                <dd>
+                    原型设计文件
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (9).png" alt="UI源文件">
+                </dt>
+                <dd>
+                    UI源文件
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (7).png" alt="APP+ 后台源码">
+                </dt>
+                <dd>
+                    APP+ 后台源码
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (6).png" alt="系统部署文档">
+                </dt>
+                <dd>
+                    系统部署文档
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (10).png" alt="接口文档">
+                </dt>
+                <dd>
+                    接口文档
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (8).png" alt="运维文档">
+                </dt>
+                <dd>
+                    运维文档
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (3).png" alt="代码框架说明">
+                </dt>
+                <dd>
+                    代码框架说明
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (4).png" alt="数据字典">
+                </dt>
+                <dd>
+                    数据字典
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="https://www.irzhd.com//imgs/zfqd (5).png" alt="测试报告">
+                </dt>
+                <dd>
+                    测试报告
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!-- 交付清单结束 -->
+
+
+    <!-- 系统安全开始 -->
+    <div class="app-system-safety">
+        <h1>系统安全</h1>
+        <p>多维度的系统安全防范，是您项目稳定运行的基础</p>
+        <div class="dldisplay">
+            <div>
+                <dl>
+                    <dt>
+                        代码级别
+                    </dt>
+                    <dd>
+                        防SQL注入
+                    </dd>
+                    <dd>
+                        过滤拦截机制
+                    </dd>
+                    <dd>
+                        并发安全机制
+                    </dd>
+                    <dd>
+                        加密
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        应用程序级别
+                    </dt>
+                    <dd>
+                        身份认证机制
+                    </dd>
+                    <dd>
+                        权限控制
+                    </dd>
+                    <dd>
+                        渗透测试
+                    </dd>
+                    <dd>
+                        日志追踪
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <dl>
+                    <dt>
+                        数据级别
+                    </dt>
+                    <dd>
+                        数据存储
+                        <br>
+                    </dd>
+                    <dd>
+                        双机容错
+                    </dd>
+                    <dd>
+                        数据备份
+                    </dd>
+                    <dd>
+                        灾难恢复
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        服务器级别
+                    </dt>
+                    <dd>
+                        防火墙
+                    </dd>
+                    <dd>
+                        入侵检测
+                    </dd>
+                    <dd>
+                        漏洞扫描
+                    </dd>
+                    <dd>
+                        物理隔离
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- 系统安全结束 -->
+
+
+    <!-- 我们的优势开始-->
+    <div class="app-us-ability">
+        <h1>用精湛的技术提升项目的价值和智慧</h1>
+        <div class="app-us-ability-content">
+            <div class="content-box">
+                <img src="https://www.irzhd.com//imgs/us (1).png" alt="全栈牛人">
+                <h3>全栈牛人</h3>
+                <p>全栈工程师协同打造前后端 </p>
+            </div>
+            <div class="content-box">
+                <img src="https://www.irzhd.com//imgs/us (2).png" alt="敏捷开发">
+                <h3>敏捷开发</h3>
+                <p>以用户的需求进化为核心</p>
+            </div>
+            <div class="content-box">
+                <img src="https://www.irzhd.com//imgs/us (3).png" alt="驳接硬件">
+                <h3>驳接硬件</h3>
+                <p>多维接驳硬件</p>
+            </div>
+            <div class="content-box">
+                <img src="https://www.irzhd.com//imgs/us (4).png" alt="数据贯通">
+                <h3>数据贯通</h3>
+                <p>打通进销存、ERP等第三方数据</p>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的优势  模块结束 -->
+
+    <!-- 技术支持开始 -->
+    <div class="app-technical-support">
+        <h1>全天候技术支持</h1>
+        <p>成熟的开发项目管理体系，确保您的项目高效交付、稳定上线</p>
+        <div class="show-support">
+            <div>
+                <img src="https://www.irzhd.com//imgs/zc (1).png" alt="服务器部署及维护">
+                <p>服务器部署<br>及维护</p>
+            </div>
+            <div>
+                <img src="https://www.irzhd.com//imgs/zc (2).png" alt="后台使用指导培训">
+                <p>后台使用<br>指导培训</p>
+            </div>
+            <div>
+                <img src="https://www.irzhd.com//imgs/zc (4).png" alt="专属服务顾问7*24 小时技术支持">
+                <p>7*24小时技术顾问<br></p>
+            </div>
+            <div>
+                <img src="https://www.irzhd.com//imgs/zc (3).png" alt="系统维护">
+                <p>系统维护<br>迭代优化</p>
+            </div>
+        </div>
+    </div>
+    <!-- 技术支持结束 -->
+
+
+    <!-- 提交需求模块开始 -->
+    <div id="demand">
+        <div class="pub-1200 app2">
+            <h1>提交需求，获取工期与报价</h1>
+            <a href="javascript:;" class="ol-consult">立即咨询</a>
+        </div>
+    </div>
+    <!-- 提交需求模块结束 -->
+
+    <!-- 第二个分区——APP开发结束 -->
+
+
+
+    <!-- 页脚开始 -->
+    <div id="footer">
+        <ul>
+            <li><a href="#a1">开发流程</a></li>
+            <li><a href="../解决方案/移动端解决方案.html">解决方案</a></li>
+            <li><a href="../合作案例/合作案例.html">合作案例</a></li>
+            <li><a href="../产品中心/移动端产品中心.html">产品中心</a></li>
+            <li><a href="https://openai.1479284.xyz/#/chat/1002">在线AI</a></li>
+        </ul>
+
+        <div class="companymsg">
+            <div class="footerleft">
+                <h1>欧穆联邦软件科技</h1>
+                <p>long live the freedom!!!</p>
+                <p>服务热线（国外用户加0086）：<br><span>189-5213-1770</span> 24小时</p>
+                <p><span>葛墨林：QQ1：1778607946</span>电话：18952131770</p>
+                <p><span>QQ2：2772222271</span>微信：gemolin66</p>
+                <p style="font-size: 12px;line-height: 28px;">
+                    <span style="font-size: 12px;">电子邮箱：18952131770@189.cn</span>
+                </p>
+            </div>
+            <div class="footerright">
+                <p><img src="二维码.jpg" alt="欧穆联邦软件科技有限合伙企业" style="width: 6em;">&emsp;&emsp;&emsp;欢迎扫码咨询我</p>
+                <p>自由&nbsp;独立&nbsp;人权&nbsp;个性&nbsp;解放</p>
+                <p>民主&nbsp;共和&nbsp;法治&nbsp;分权&nbsp;协商</p>
+                <p>文明&nbsp;现代&nbsp;开放&nbsp;平等&nbsp;公正</p>
+                <p>进步&nbsp;创新&nbsp;科学&nbsp;辩证&nbsp;理性</p>
+                <p>自决&nbsp;自立&nbsp;自强&nbsp;自主&nbsp;自治</p>
+            </div>
+            <div class="copyright">
+                <p><span>2021-2024 </span>欧穆联邦软件科技有限合伙企业.All Right Reserved.<a href="">苏ICP备15026839号-1</a>
+                    <a>隐私政策</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚结束 -->
+    <br><br><br>
+    <script src="./官网首页.js"></script>
+
+
+</body>
+
+</html>

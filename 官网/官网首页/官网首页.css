@@ -1,0 +1,1560 @@
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      background-image: url('2.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      flex-direction: column;
+      cursor: url(http://www.ibloger.net/cursor.ico), auto;
+  }
+
+
+
+
+  /* 主页开始 */
+
+
+
+  .container {
+      max-width: 120em;
+      min-width: 40em;
+      width: 75vw;
+      display: flex;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      backdrop-filter: blur(8px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      flex-direction: column;
+      margin-top: 55px;
+  }
+
+
+  header {
+      text-align: center;
+      display: flex;
+      width: 100%;
+      height: 5.5em;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      backdrop-filter: blur(0.1px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  header>ul {
+      display: flex;
+      margin-left: 2em;
+  }
+
+  header>ul>li {
+      padding: 0.8em;
+  }
+
+
+  header>ul>li>a {
+      color: #3ea0f5;
+      line-height: 40px;
+      display: block;
+      text-align: center;
+      position: relative;
+      font-size: 13px;
+  }
+
+  header>ul>li>a::after {
+      content: "";
+      display: block;
+      width: 0;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      background: linear-gradient(120deg,
+              #e0c3fc 0%,
+              #8ec5fc 100%);
+      height: 4px;
+      transition: width 0.3s ease-out;
+  }
+
+  header>ul>li>a:hover::after {
+      width: 100%;
+  }
+
+
+
+  header>p {
+      color: #5983ff;
+      font-family: cursive;
+      font-size: 22px;
+      margin-left: 13px;
+  }
+
+
+
+  content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .c {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px #3a9afd;
+      border-radius: 15px;
+      flex-wrap: wrap;
+  }
+
+
+  .c1 {
+      display: flex;
+      width: 30%;
+      height: 45em;
+      margin: 0.8em;
+      margin-left: 0px;
+  }
+
+
+
+  .c3 {
+      width: 100%;
+      height: 19em;
+      margin-top: 1em;
+  }
+
+  .c3>img {
+      width: 90%;
+      height: 55%;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: center;
+  }
+
+  .c4 {
+      display: flex;
+      width: 100%;
+      height: 5.5em;
+      align-content: center;
+      justify-content: center;
+  }
+
+
+  .divide {
+      width: 65%;
+  }
+
+  .technology-list {
+      width: 100%;
+      height: 25em;
+      border: #5ab2ff 1px solid;
+      box-shadow: 0 0 18px #3a9afd;
+      border-radius: 15px;
+  }
+
+  .t1 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      padding-left: 1em;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+  .technology-list dl dt {
+      font-size: 19px;
+      font-weight: bold;
+      display: flex;
+  }
+
+  .technology-list dl dd {
+      font-size: 14px;
+      line-height: 40px;
+  }
+
+  .technology-list dl {
+      width: 15%;
+      display: flex;
+      text-align: center;
+      color: #00ccff;
+      margin-right: 1em;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+
+  .c1 div img {
+      width: 42px;
+  }
+
+  .icon {
+      margin: 15px;
+      display: flex;
+      width: 100%;
+      height: 43em;
+      border: 3.5px dashed #50dcff;
+      border-radius: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .icon div {
+      text-align: center;
+      margin-top: 23px;
+      width: 95%;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  .icon div p {
+      width: 60em;
+      font-size: 14%;
+      color: #4484e7;
+  }
+
+  .c4 {
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(1px);
+  }
+
+  .c4 span {
+      margin: 8px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      color: #369df6;
+      font-size: 15px;
+      font-style: italic;
+  }
+
+  /* 主页结束 */
+
+
+  /* 标题 */
+  .two {
+      display: flex;
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(3px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 5em;
+      width: 75vw;
+      justify-content: space-evenly;
+      max-width: 120em;
+  }
+
+
+  .title {
+      display: flex;
+      align-items: center;
+      margin-top: 2em;
+      margin-bottom: 2em;
+  }
+
+
+  .title>p {
+      font-size: 20px;
+      font-style: oblique;
+      color: #6088ff;
+  }
+
+
+  .two a {
+      margin-left: 8em;
+      display: flex;
+      width: 138px;
+      height: 38px;
+      border-radius: 20px;
+      text-align: center;
+      line-height: 38px;
+      color: #3B7DEC;
+      background: rgba(255, 255, 255, 0.9);
+      justify-content: center;
+      align-items: center;
+      transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+      -o-transition: all 0.1s;
+  }
+
+  .two a:hover {
+      transform: scaleY(1.1);
+      -ms-transform: scaleY(1.1);
+      -moz-transform: scaleY(1.1);
+      -webkit-transform: scaleY(1.1);
+      -o-transform: scaleY(1.1);
+  }
+
+  /* 标题结束 */
+
+
+
+  /* APP外包服务，Android,IOS,iPad */
+  .app,
+  .app-class {
+      max-width: 120em;
+      text-align: center;
+      display: flex;
+      width: 75vw;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      backdrop-filter: blur(3px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      padding-top: 17px;
+      margin-top: 10px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .app-dev {
+      text-align: center;
+  }
+
+  .app-dev .app-dev-class {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      margin-bottom: 3em;
+  }
+
+  .app-dev-class .box {
+      width: 25%;
+      margin: 9px;
+  }
+
+  .app-dev>h1 {
+      width: 100%;
+      color: #56bfff;
+      font-weight: normal;
+      font-size: 24px;
+      margin: auto;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+  }
+
+  .app-dev>p {
+      width: 100%;
+      color: #758ca5;
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 3em;
+  }
+
+  .app-dev .app-dev-class .box div {
+      height: 125px;
+  }
+
+  .app-dev .app-dev-class .box h1 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #626262;
+      margin-bottom: 11px;
+  }
+
+  .app-dev .app-dev-class .box p {
+      line-height: 29px;
+      color: #767676;
+      font-size: 14px;
+      margin-bottom: 17px;
+  }
+
+  .app-dev .app-dev-class .box img {
+      width: 5em;
+      margin-top: 12px;
+  }
+
+
+  .app1 {
+      width: 1250px;
+      margin: auto;
+      display: flex;
+  }
+
+  /* APP外包服务，Android,IOS,iPad  模块结束*/
+
+  /* APP分类模块开始 */
+  .app-class {
+      width: 75vw;
+  }
+
+  .app-class h1 {
+      width: 100%;
+      font-weight: normal;
+      font-size: 24px;
+      text-align: center;
+      color: #56bfff;
+      margin: 0 auto;
+      margin-bottom: 1em;
+      margin-top: 1em;
+  }
+
+  .app-class p {
+      width: 100%;
+      color: #758ca5;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 1.7em;
+  }
+
+
+
+  .wrap {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2em;
+      margin-bottom: 3.5em;
+  }
+
+  ol,
+  ul {
+      list-style: none;
+  }
+
+  .app-class ul li {
+      width: 16%;
+      border-radius: 4px;
+      margin: 4px;
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 60px;
+      background: rgb(67 156 251 / 40%);
+  }
+
+  /* APP分类模块结束 */
+
+
+  /* 移动APP定制流程 */
+  .app-order-process {
+      max-width: 120em;
+      width: 75vw;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      padding-top: 17px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .app-order-process>h1 {
+      font-weight: normal;
+      font-size: 32px;
+      text-align: center;
+      margin: 48px 0 26px 0;
+      color: #303030;
+  }
+
+  .app-order-process>h1 {
+      width: 100%;
+      font-weight: normal;
+      font-size: 26px;
+      text-align: center;
+      margin: 18px 0 19px 0;
+      color: #56bfff;
+  }
+
+  .app-order-process>p {
+      width: 100%;
+      text-align: center;
+      color: #758ca5;
+      font-size: 16px;
+      margin-bottom: 2em;
+  }
+
+  .app-order-process .product-plan {
+      display: flex;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      width: 95%;
+      margin-bottom: 1.5em;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 3em;
+  }
+
+
+  .app-order-process .product-plan h2 {
+      margin-top: 1.5em;
+      margin-bottom: 1em;
+      width: 100%;
+      font-size: 21px;
+      font-weight: bold;
+      color: #626262;
+      text-align: center;
+  }
+
+  .app-order-process .product-plan .analysis {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .app-order-process .product-plan .analysis div {
+      width: 185px;
+      padding: 0px 40px;
+      text-align: center;
+  }
+
+  .app-order-process .product-plan .analysis div span {
+      font-size: 16px;
+      color: #484848;
+  }
+
+  .app-order-process .product-plan .analysis div p {
+      font-size: 14px;
+      margin: 10px 0;
+      line-height: 20px;
+      color: #767676;
+  }
+
+  .app-order-process .product-plan h2:nth-of-type(2) {
+      padding-top: 15px;
+  }
+
+  .app-order-process .product-plan .analysis-down {
+      display: flex;
+      justify-content: center;
+  }
+
+  .app-order-process .product-dev {
+      display: flex;
+      width: 95%;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2em;
+  }
+
+  .app-order-process .product-plan .analysis-down dl {
+      margin: 0 22px;
+      text-align: center;
+  }
+
+  .app-order-process .product-plan .analysis-down dl dt {
+      padding: 13px 0;
+      font-size: 16px;
+      color: #484848;
+  }
+
+  .app-order-process .product-plan .analysis-down dl dd {
+      font-size: 13px;
+      color: #767676;
+      line-height: 22px;
+  }
+
+
+
+  .app-order-process .product-dev>img {
+      margin-top: -6px;
+      margin-left: -6px;
+      float: left;
+      vertical-align: middle;
+  }
+
+
+  .app-order-process .product-dev .rightbox {
+      width: 100%;
+      padding-bottom: 3em;
+      padding-top: 2em;
+  }
+
+  .app-order-process .product-dev .rightbox .top {
+      margin-top: 2em;
+  }
+
+  .app-order-process .product-dev .rightbox .top ul li {
+      margin-inline: 2em;
+      font-size: 16px;
+      line-height: 50px;
+      text-align: center;
+      color: #4D4D4D;
+  }
+
+
+
+  .app-order-process .product-dev .rightbox .top h1 {
+      width: 100%;
+      font-size: 22px;
+      color: #676767;
+      text-align: center;
+      margin-bottom: 0.6em;
+  }
+
+  .app-order-process .product-dev .rightbox .top ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .app-order-process .product-dev .rightbox .middle {
+      text-align: center;
+      margin-top: 1em;
+  }
+
+  .app-order-process .product-dev .rightbox .middle h1 {
+      margin-top: 12px;
+      margin-bottom: 1em;
+      font-size: 21px;
+      color: #676767;
+      text-align: center;
+  }
+
+  .app-order-process .product-dev .rightbox .middle img {
+      margin-top: 1em;
+      min-width: 35em;
+      width: 55%;
+  }
+
+  .app-order-process .product-dev .rightbox .bottom {
+      margin-top: 2em;
+  }
+
+  .bottom>div {
+      margin-top: 0.8em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .app-order-process .product-dev .rightbox .bottom h1 {
+      font-size: 21px;
+      color: #676767;
+      text-align: center;
+  }
+
+  .app-order-process .product-dev .rightbox .bottom p {
+      font-size: 16px;
+      line-height: 40px;
+      color: #767676;
+  }
+
+  .app-order-process .product-popularize {
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      width: 95%;
+      margin: 0 auto 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .app-order-process .product-popularize>img {
+      float: left;
+      margin-top: -6px;
+      margin-left: -6px;
+  }
+
+
+  .app-order-process .product-popularize .rightbox {
+      text-align: center;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3em;
+  }
+
+  .app-order-process .product-popularize .rightbox p {
+      color: #6e8389;
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+
+
+  .app-order-process .product-popularize .rightbox dl dt {
+      font-size: 20px;
+      font-weight: bold;
+      color: #676767;
+      /* margin: 0px 0 15px; */
+      margin-top: 2em;
+      margin-bottom: 1.3em;
+  }
+
+  .app-order-process .product-popularize .rightbox dl:nth-of-type(2) {
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+  }
+
+  /* 移动APP定制流程结束 */
+
+
+  /* 交付清单开始 */
+  .app-delivery-list {
+      max-width: 120em;
+      display: flex;
+      width: 75vw;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .app-delivery-list h1 {
+      width: 100%;
+      margin: auto;
+      margin-top: 2.5em;
+      font-size: 24px;
+      font-weight: normal;
+      text-align: center;
+      color: #56bfff;
+  }
+
+  .app-delivery-list P {
+      width: 100%;
+      text-align: center;
+      margin: 30px auto 37px;
+      color: #758ca5;
+  }
+
+  .app-delivery-list .delivery-list-box {
+      display: flex;
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3em;
+  }
+
+  .app-delivery-list .delivery-list-box dl {
+      width: 20%;
+      text-align: center;
+      margin-bottom: 3em;
+  }
+
+  .app-delivery-list .delivery-list-box dl img {
+      width: 3em;
+  }
+
+  .app-delivery-list .delivery-list-box dl dd {
+      font-size: 18px;
+      margin: 12px 0;
+      color: #626262;
+  }
+
+  /* 交付清单结束 */
+
+
+
+  /* 系统安全开始 */
+  .app-system-safety {
+      max-width: 120em;
+      display: flex;
+      width: 75vw;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 10px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .app-system-safety h1 {
+      font-size: 24px;
+      font-weight: normal;
+      text-align: center;
+      color: #56bfff;
+      margin: auto;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+  }
+
+  .app-system-safety P {
+      text-align: center;
+      margin-top: 0.5em;
+      margin-bottom: 3em;
+      color: #758ca5;
+  }
+
+  .dldisplay {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 5em;
+  }
+
+  .app-system-safety dl {
+      box-shadow: 0 0 10px 0px rgb(188 188 188 / 40%);
+      width: 13%;
+      min-width: 6em;
+      text-align: center;
+      margin: 0 auto;
+  }
+
+  .app-system-safety dl dt {
+      line-height: 50px;
+      background: #416fdb;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 12px;
+  }
+
+  .app-system-safety dl dd {
+      font-size: 14px;
+      line-height: 50px;
+      background: #ffffff;
+      margin: 14px 0px;
+      color: #767676;
+      border-radius: 12px;
+  }
+
+  /* 系统安全结束 */
+
+
+
+  /* 我们的优势 开始 */
+  .app-us-ability {
+      display: flex;
+      max-width: 120em;
+      width: 75vw;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 10px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .app-us-ability h1 {
+      font-size: 24px;
+      font-weight: normal;
+      text-align: center;
+      color: #56bfff;
+      margin-top: 2.5em;
+      margin-bottom: 1.5em;
+  }
+
+  .app-us-ability .app-us-ability-content {
+      display: flex;
+      margin-top: 2em;
+      margin-bottom: 5em;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .app-us-ability .app-us-ability-content .content-box {
+      width: 100%;
+      padding-bottom: 15px;
+      text-align: center;
+  }
+
+  .app-us-ability .app-us-ability-content .content-box img {
+      /* width: 19%; */
+      margin-top: 10px;
+      height: 42px;
+  }
+
+
+  .app-us-ability .app-us-ability-content .content-box h3 {
+      margin-top: 13px;
+      margin-bottom: 10px;
+      font-size: 17px;
+      font-weight: normal;
+  }
+
+  .app-us-ability .app-us-ability-content .content-box p {
+      line-height: 21px;
+      color: #5a5f67;
+      font-size: 14px;
+  }
+
+  /* 我们的优势 模块结束 */
+
+  /* 技术支持模块开始 */
+  .app-technical-support {
+      max-width: 120em;
+      width: 75vw;
+      padding-top: 18px;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 10px;
+  }
+
+  .app-technical-support>h1 {
+      font-size: 24px;
+      font-weight: normal;
+      text-align: center;
+      color: #56bfff;
+      margin-top: 1em;
+      margin-bottom: 1em;
+  }
+
+  .app-technical-support>P {
+      margin-top: 12px;
+      text-align: center;
+      width: 100%;
+      color: #758ca5;
+      font-size: 13px;
+  }
+
+  .app-technical-support .show-support {
+      display: flex;
+      margin-top: 5em;
+      margin-bottom: 5em;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .app-technical-support .show-support div img {
+      margin-top: 10px;
+      height: 41px;
+  }
+
+
+
+  .app-technical-support .show-support div {
+      width: 100%;
+      padding-bottom: 15px;
+      text-align: center;
+  }
+
+  .app-technical-support .show-support div p {
+      color: #4098f5;
+      font-size: 13px;
+      line-height: 22px;
+      margin: 14px auto 0px;
+  }
+
+  /* 技术支持模块结束 */
+
+
+  /* 提交需求模块开始 */
+  #demand {
+      max-width: 120em;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      margin-top: 10px;
+      width: 75vw;
+      /* height: 10em; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .app2 {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  #demand h1 {
+      font-size: 17px;
+      color: #0b1318;
+      width: 100%;
+      line-height: 6em;
+  }
+
+  #demand a {
+      display: flex;
+      margin: auto;
+      margin-bottom: 10px;
+      border-radius: 18px;
+      width: 100px;
+      height: 33px;
+      text-align: center;
+      line-height: 2px;
+      color: #4456ff;
+      background: #fff;
+      transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+      -o-transition: all 0.1s;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+  }
+
+
+  #demand a:hover {
+      transform: scaleY(1.1);
+      -ms-transform: scaleY(1.1);
+      -moz-transform: scaleY(1.1);
+      -webkit-transform: scaleY(1.1);
+      -o-transform: scaleY(1.1);
+  }
+
+  /* 提交需求模块结束 */
+
+
+
+
+
+  /* 页脚开始 */
+  #footer {
+      /* max-width: 90em; */
+      max-width: 120em;
+      width: 75vw;
+      margin-top: 8em;
+      color: #007bff;
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+  }
+
+  #footer ul {
+      width: 90%;
+      height: 77px;
+      margin: auto;
+      border-bottom: 1px solid #3d7df1;
+      display: flex;
+      justify-content: center;
+  }
+
+
+  #footer ul li {
+      line-height: 75px;
+      margin: 0px 17px;
+  }
+
+  #footer ul li a {
+      color: #3c88ff;
+  }
+
+  #footer .companymsg {
+      display: flex;
+      margin: 0 auto;
+      padding-top: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  #footer .companymsg .footerleft {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #footer .companymsg h1 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 14px;
+  }
+
+  #footer .companymsg .footerleft p {
+      line-height: 30px;
+  }
+
+  #footer .copyright {
+      margin-top: 40px;
+      margin-bottom: 2em;
+  }
+
+  #footer .copyright p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 14px;
+      line-height: 50px;
+      opacity: 0.75;
+  }
+
+  #footer .copyright p {
+      font-size: 12px;
+  }
+
+  #footer .copyright a {
+      color: #00030a;
+  }
+
+  /* 页脚结束 */
+
+
+  /* 客服窗口开始 */
+  .zxb-im-win {
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      cursor: pointer;
+      position: fixed;
+      font-family: "Microsoft YaHei" !important;
+      z-index: 99999;
+      top: 36.5%;
+      left: 0.5%;
+  }
+
+  .zxb-im-win.preview-icon.type-3 {
+      width: 50px;
+  }
+
+  .zxb-im-win.btn-right .btn-text-icon-customer {
+      box-sizing: border-box;
+      font-size: 12px;
+      text-align: center;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+
+  .zxb-im-win .icon-content .iconfont-customer {
+      color: #0026ff;
+      font-size: 26px;
+      font-weight: 900;
+  }
+
+  .iconfont-customer {
+      font-family: "iconfont-customer" !important;
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      user-select: none;
+      display: inline-block;
+  }
+
+  .zxb-im-win.btn-right .text {
+      width: 100%;
+      word-break: break-all;
+  }
+
+  .zxb-im-win.btn-right .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .zxb-im-win .text {
+      font-size: 17px;
+      font-weight: 900;
+  }
+
+  /* 客服窗口结束 */
+
+
+
+
+  /* 测试 */
+  #newBridge {
+      font-family: Arial, Helvetica, "Microsoft YaHei", sans-serif;
+      z-index: 2147483647;
+  }
+
+  #newBridge .nb-show {
+      display: block;
+  }
+
+  #newBridge .nb-nodeboard-left-bottom {
+      right: 0.5%;
+      bottom: 0.5%;
+      top: auto;
+  }
+
+  #newBridge .nb-nodeboard-position-base {
+      position: fixed;
+
+  }
+
+  #newBridge .nb-nodeboard-base {
+      height: 404px;
+      width: 240px;
+      border-radius: 8px;
+      z-index: 3;
+      box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base {
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      color: #000;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-top {
+      background: linear-gradient(to right bottom, rgb(0 91 255 / 70%), rgb(0 88 255 / 50%), rgb(0 183 255 / 40%));
+      height: 46px;
+      line-height: 46px;
+      font-size: 14px;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      cursor: grab;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-head-title {
+      float: left;
+      font-size: 14px;
+      color: #ffffff;
+      margin-left: 12px;
+      line-height: 46px;
+      padding-left: 2px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      user-select: none;
+      font-size: 16px;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-close {
+      height: 37px;
+      width: 27px;
+      cursor: pointer;
+      background: url(横杠.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 8px;
+      right: 12px;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-text {
+      zoom: 1;
+      padding: 12px 0;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-text .nb-nodeboard-company {
+      font-size: 14px;
+      background-color: transparent;
+      color: #003ef5;
+      font-style: italic;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-text p {
+      word-break: break-all;
+      line-height: 18px;
+      margin: 0 8px 0 12px;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form {
+      display: inline;
+      background-color: #ededed;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-content {
+      position: relative;
+      width: 216px;
+      margin: 0px auto;
+      padding: 0px;
+  }
+
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-set-content {
+      width: 192px;
+      height: 58px;
+      margin: 12px auto 7px;
+      padding: 10px 12px;
+      resize: none;
+      overflow: hidden;
+      border: 1px solid #DCDFE6;
+      background-color: #fff;
+      text-align: left;
+      outline: 0;
+      border-radius: 10px;
+      font-size: 12px;
+      line-height: 18px;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-name {
+      height: 33px;
+      width: 215px;
+      line-height: 32px;
+      margin: 8px auto 0;
+      border: 1px solid #DCDFE6;
+      position: relative;
+      background-color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-icon {
+      width: 35px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      vertical-align: top;
+      border-right: 1px solid #fff;
+      border-radius: 4px 0 0 4px;
+  }
+
+  #newBridge .nodeName {
+      background: #fff url(user.png) no-repeat 9px center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-input {
+      margin: 0;
+      width: 172px;
+      height: 32px;
+      line-height: 32px;
+      border: none;
+      display: inline-block;
+      outline: 0;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-name {
+      height: 33px;
+      width: 215px;
+      line-height: 32px;
+      margin: 8px auto 0;
+      border: 1px solid #DCDFE6;
+      position: relative;
+      background-color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-icon {
+      width: 35px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      vertical-align: top;
+      border-right: 1px solid #fff;
+      border-radius: 4px 0 0 4px;
+  }
+
+  #newBridge .nodePhone {
+      background: #fff url(nodephone.png) no-repeat 9px center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-input {
+      margin: 0;
+      width: 172px;
+      height: 32px;
+      line-height: 32px;
+      border: none;
+      display: inline-block;
+      outline: 0;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-ext-input {
+      background: #fff url(custom.png) no-repeat 9px center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-name {
+      height: 37px;
+      width: 215px;
+      line-height: 32px;
+      margin: 8px auto 0;
+      border: 1px solid #DCDFE6;
+      position: relative;
+      background-color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-icon {
+      width: 35px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      vertical-align: top;
+      border-right: 1px solid #fff;
+      border-radius: 4px 0 0 4px;
+  }
+
+  #newBridge .nodeExt {
+      background: #fff url(custom.png) no-repeat center center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-input {
+      margin: 0;
+      width: 172px;
+      height: 32px;
+      line-height: 32px;
+      border: none;
+      display: inline-block;
+      outline: 0;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-ext-input {
+      background: #fff url(custom.png) no-repeat 9px center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-name {
+      height: 37px;
+      width: 215px;
+      line-height: 32px;
+      margin: 8px auto 0;
+      border: 1px solid #DCDFE6;
+      position: relative;
+      background-color: #fff;
+      border-radius: 6px;
+      font-size: 14px;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-icon {
+      width: 35px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      vertical-align: top;
+      border-right: 1px solid #fff;
+      border-radius: 4px 0 0 4px;
+  }
+
+  #newBridge .nodeExt {
+      background: #fff url(custom.png) no-repeat center center;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-board-form .nb-nodeboard-input {
+      margin: 0;
+      width: 172px;
+      height: 32px;
+      line-height: 32px;
+      border: none;
+      display: inline-block;
+      outline: 0;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-success {
+      display: none;
+      height: 270px;
+      background-color: #ededed;
+      position: relative;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-send {
+      width: 218px;
+      margin: 12px auto 0 10px;
+      padding-bottom: 12px;
+      overflow: hidden;
+  }
+
+  #newBridge ins {
+      display: block;
+      text-decoration: none;
+  }
+
+  #newBridge .nb-nodeboard-base .nb-nodeboard-contain-base .nb-nodeboard-send-btn {
+      background: linear-gradient(to right bottom, rgb(0 149 255 / 70%), rgb(0 88 255 / 50%), rgb(0 183 255 / 40%));
+      height: 32px;
+      width: 64px;
+      line-height: 32px;
+      text-align: center;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #fff;
+      cursor: pointer;
+      float: right;
+  }
+
+  /* 测试结束 */
+
+
+  /* 所有盒子的缩放特效，鼠标滑过放大 */
+  header>ul>li>a,
+  header>p,
+  .technology-list dl dt,
+  .c1 div img,
+  .icon div p,
+  .c4 span,
+  .app-dev .app-dev-class .box div,
+  .app-class ul li,
+  .app-system-safety dl dt,
+  .app-system-safety dl dd,
+  .app-technical-support .show-support div img,
+  #footer ul li,
+  .zxb-im-win,
+  .cebianlan li img,
+  .app-delivery-list .delivery-list-box dl img,
+  .app-us-ability .app-us-ability-content .content-box img {
+      transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+  }
+
+  header>ul>li>a:hover,
+  header>p:hover,
+  .technology-list dl dt:hover,
+  .c1 div img:hover,
+  .icon div p:hover,
+  .c4 span:hover,
+  .app-dev .app-dev-class .box div:hover,
+  .app-class ul li:hover,
+  .app-system-safety dl dt:hover,
+  .app-system-safety dl dd:hover,
+  .app-technical-support .show-support div img:hover,
+  #footer ul li:hover,
+  .zxb-im-win:hover,
+  .cebianlan li img:hover,
+  .app-delivery-list .delivery-list-box dl img:hover,
+  .app-us-ability .app-us-ability-content .content-box img:hover {
+      transform: scaleY(1.1);
+      -ms-transform: scaleY(1.1);
+      -moz-transform: scaleY(1.1);
+      -webkit-transform: scaleY(1.1);
+      -o-transform: scaleY(1.1);
+  }
+
+  /* 鼠标滑过放大的效果结束 */

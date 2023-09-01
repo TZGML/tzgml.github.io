@@ -1,0 +1,220 @@
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+
+  body {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(背景图.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      flex-direction: column;
+      cursor: url(http://www.ibloger.net/cursor.ico), auto;
+  }
+
+
+
+  /* 头部导航栏 */
+  header {
+      z-index: 999;
+      position: fixed;
+      top: 7px;
+      display: flex;
+      max-width: 130em;
+      width: 95vw;
+      height: 5em;
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  header>ul {
+      display: flex;
+      padding: 2.5em;
+      padding-right: 0;
+  }
+
+  header>ul>li {
+      padding: 0.8em;
+  }
+
+  header>ul>li>a {
+      color: #3ea0f5;
+      line-height: 40px;
+      display: block;
+      text-align: center;
+      position: relative;
+  }
+
+  header>ul>li>a::after {
+      content: "";
+      display: block;
+      width: 0;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      background: linear-gradient(120deg,
+              #e0c3fc 0%,
+              #8ec5fc 100%);
+      height: 4px;
+      transition: width 0.3s ease-out;
+  }
+
+  header>ul>li>a:hover::after {
+      width: 100%;
+  }
+
+
+
+  header>p {
+      color: #5983ff;
+      font-family: cursive;
+      font-size: xx-large;
+  }
+
+  /* 头部导航栏 */
+
+
+
+
+  /* 第一个内容分区，管理系统开始 */
+  .content1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 7em;
+  }
+
+  .content1>.header {
+      max-width: 120em;
+      width: 73vw;
+      height: 5rem;
+      display: flex;
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2em;
+      margin-bottom: 7px;
+      color: #a29bfe;
+      font-size: 25px;
+      font-weight: 900;
+  }
+
+
+
+  .ul {
+      width: 73vw;
+      display: flex;
+      background: linear-gradient(to right bottom,
+              rgba(255, 255, 255, .7),
+              rgba(255, 255, 255, .5),
+              rgba(255, 255, 255, .4));
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px #a29bfe;
+      border-radius: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5em;
+      max-width: 120em;
+  }
+
+
+  .PD_list {
+      background-color: #fff;
+      margin: 11px;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .05);
+  }
+
+  .PD_list a:nth-child(odd) {
+      animation-delay: 0.3s;
+  }
+
+  .PD_list a {
+      display: inline-block;
+      position: relative;
+      -webkit-perspective: 1000px;
+      -moz-perspective: 1000px;
+      -ms-perspective: 1000px;
+      perspective: 1000px;
+  }
+
+  a,
+  button {
+      cursor: pointer;
+  }
+
+  .PD_img {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+
+  img {
+      outline: none;
+      border: none;
+  }
+
+  .PD_img_h {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+      opacity: 0;
+  }
+
+  .PD_list a:hover .PD_img_h {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      opacity: 1;
+  }
+
+
+  .clearfix:after {
+      clear: both;
+      content: ".";
+      display: block;
+      font-size: 0;
+      height: 0;
+      overflow: hidden;
+      zoom: 1;
+  }
+
+  /* 第一个内容分区，管理系统结束 */
