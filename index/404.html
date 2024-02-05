@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not Found - 404</title>
+  <link rel="stylesheet" href="./layui/css/layui.css">
+  <!--给网站添加鼠标点击爆炸五颜六色特效-->
+  <link rel="stylesheet" type="text/css" href="http://zhouql.vip/cdn/css/szgotop.css" />
+  <script src="http://zhouql.vip/cdn/blast.js"></script>
+  <link rel="icon" href="./src/icon.png">
+  <style>
+    @font-face {
+      font-family: btfFont;
+      src: url(https://open.programapps.top/font/TypeFont.woff2) format('woff2')
+    }
+
+    * {
+      font-family: btfFont;
+      font-weight: 400;
+
+    }
+
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 40vh;
+      position: relative;
+    }
+
+    /* 404标题的大字样式 */
+    .wrong {
+      font-size: 4em;
+      font-weight: 800;
+      color: rgb(22, 111, 245);
+      text-align: center;
+      margin-bottom: 11px;
+    }
+
+    /* 404下方错误文本的样式 */
+    .wrongtext {
+      font-size: 20px;
+      font-weight: 500;
+      color: rgb(87 87 87);
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    button {
+      margin-inline: 3em;
+      margin-bottom: 1em;
+      margin-left: 0px !important;
+
+    }
+    
+
+    .button {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    /* 按钮居中 */
+    .buttonmiddle {
+      margin: 0 !important;
+    }
+
+    button>a,
+    button>a:click {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* 回到首页的蓝色按钮文本为白色 */
+    .layui-bg-blue>a {
+      color: #fff !important;
+    }
+
+    /* 移动端适配 */
+    @media screen and (max-width: 330px) {
+      .wrong {
+        font-size: 3em;
+      }
+
+      .wrongtext {
+        font-size: 15px;
+      }
+
+      .layui-btn {
+        font-size: 12px;
+      }
+    }
+  </style>
+  <!--给网站添加鼠标点击爆炸五颜六色特效-->
+  <link rel="stylesheet" type="text/css" href="http://zhouql.vip/cdn/css/szgotop.css" />
+  <script src="http://zhouql.vip/cdn/blast.js"></script>
+</head>
+
+
+<body>
+  <!-- 烟花飘落特效 -->
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/static/js/sakura-less.js"></script>
+  <!-- 烟花飘落特效结束 -->
+
+  <!-- 点击滑到顶部特效 -->
+  <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="http://zhouql.vip/cdn/szgotop.js"></script>
+
+
+
+  <!-- 看板娘 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+
+
+
+  <main>
+    <div class="wrong">wrong-404</div>
+    <p class="wrongtext">对不起，好像出了点错误
+      <br>去别的地方看看吧
+    </p>
+
+    <div class="button">
+      <button type="button" class="layui-btn layui-bg-blue"><a href="./index.html">回到首页</a></button>
+      <button class="layui-btn layui-btn-primary layui-border-blue buttonmiddle">寻求帮助</button>
+    </div>
+  </main>
+  <script src="./layui/layui.js"></script>
+  <script src="./index/index.js"></script>
+</body>
+
+</html>
